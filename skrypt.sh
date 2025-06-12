@@ -1,8 +1,5 @@
 #!/bin/bash
 
-if [[ "$1" == "--date" ]]; then
-  date
-
 elif [[ "$1" == "--logs" ]]; then
   count=100  # domyślnie 100 plików
   if [[ -n "$2" && "$2" =~ ^[0-9]+$ ]]; then
